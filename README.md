@@ -24,9 +24,9 @@ BS in Informatics from Indiana University, with minors in Psychology and Neurosc
 
 | Organization | Contributions | Scope |
 |---|---|---|
-| **three sixty Merchandising Solutions** | 66 commits | Retail analytics ETL pipeline, Azure SQL database design, SQL views, AI-powered brand matching, automated scorecard generation |
-| **P.L. Marketing** | 27 commits | Ad hoc Python automation, product image generation tools |
-| **Kroger Technology** | ~9 commits | CI/CD Terraform Infrastructure as Code for deployment of Azure resources |
+| **three sixty Merchandising Solutions** | 66 contributions | Retail analytics ETL pipeline, Azure SQL database design, SQL views, AI-powered brand matching, automated scorecard generation |
+| **P.L. Marketing** | 27 contributions | Ad hoc Python automation, product image generation tools |
+| **Kroger Technology** | ~91 contributions | Terraform IaC CI/CD pipelines (.yml) with staged validation (syntax check → infrastructure plan → apply), nonprod SQL Server deployment for pre-prod testing, RBAC upgrades across nonprod and prod SQL Servers, Key Vault integration, IP and networking configuration, geo-redundant backups (East US 2) |
 
 ---
 
@@ -39,12 +39,6 @@ BS in Informatics from Indiana University, with minors in Psychology and Neurosc
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
----
-
-## GitHub Stats
-
-![Reggie's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Reggie-Reuss&show_icons=true&theme=default&count_private=true&include_all_commits=true)
 
 ---
 
