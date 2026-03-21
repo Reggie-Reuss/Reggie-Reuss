@@ -14,6 +14,8 @@ BS in Informatics from Indiana University, with minors in Psychology and Neurosc
 
 **AI & Automation** — AI-powered brand matching pipelines (Claude Vision), product image generation, PDF automation, and web scraping tools.
 
+**AI Agent Tooling** — Built [Ralph Wiggum Manager](https://github.com/Reggie-Reuss/ralph-wiggum-manager), an autonomous AI agent dashboard (Flask/Python) for managing Claude Code loops. Features a web UI control tower with project tracking, real-time iteration monitoring, Discord/Slack notifications for blockers, staging branch workflows for code review, analytics/KPIs, and a CLI bridge for hands-free operation.
+
 **Open Source** — Contributing to the RuneLite ecosystem: forked the Flipping Utilities plugin to add SQLite crash-proof storage and GE history import. Performed [forensic data recovery](https://github.com/Reggie-Reuss/Runescape_FU_DataRecovery) of ~1,400 lost trade entries from a corrupted NVMe SSD.
 
 ---
