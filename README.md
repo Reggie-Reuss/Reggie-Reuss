@@ -14,7 +14,7 @@ BS in Informatics from Indiana University, with minors in Psychology and Neurosc
 
 **AI & Automation** — AI-powered brand matching pipelines (Claude Vision), product image generation, PDF automation, and web scraping tools.
 
-**AI Agent Tooling** — Built [Ralph Wiggum Manager](https://github.com/Reggie-Reuss/ralph-wiggum-manager), an autonomous AI agent dashboard (Flask/Python) for managing Claude Code loops. Features a web UI control tower with project tracking, real-time iteration monitoring, Discord/Slack notifications for blockers, staging branch workflows for code review, analytics/KPIs, and a CLI bridge for hands-free operation.
+**AI Agent Tooling** — Built [Ralph Wiggum Manager](https://github.com/Reggie-Reuss/ralph-wiggum-manager) (archived), a full-stack autonomous AI agent dashboard for managing Claude Code loops. 127-endpoint Python API, 17-table SQLite backend, 25-command CLI bridge, 9-page vanilla JS frontend. Ran in production: 908 tasks completed, 98.8% iteration success rate across 54+ hours of unattended sessions. Discord/Slack tiered notifications, staging branch safety gate for code review, and a self-improvement loop where the agent proposed and shipped features into its own codebase.
 
 **Open Source** — Contributing to the RuneLite ecosystem: forked the Flipping Utilities plugin to add SQLite crash-proof storage and GE history import, with upstream PRs submitted to [Flipping-Utilities/rl-plugin](https://github.com/Flipping-Utilities/rl-plugin). Performed [forensic data recovery](https://github.com/Reggie-Reuss/Runescape_FU_DataRecovery) of ~1,400 lost trade entries from a corrupted NVMe SSD.
 
@@ -26,9 +26,9 @@ BS in Informatics from Indiana University, with minors in Psychology and Neurosc
 
 | Organization | Contributions | Scope |
 |---|---|---|
-| **three sixty Merchandising Solutions** | 100+ contributions | Retail analytics ETL pipeline, Azure SQL database design, SQL views, AI-powered brand matching, automated scorecard generation |
-| **three sixty Power BI Reporting** | 35+ contributions | Power BI dashboards, data visualization, and executive reporting infrastructure |
-| **P.L. Marketing** | 30+ contributions | Ad hoc Python automation, product image generation tools |
+| **three sixty Merchandising Solutions** | 70+ contributions | Retail analytics ETL pipeline, Azure SQL database design, SQL views, AI-powered brand matching, automated scorecard generation, multi-tenant analytics portal (SPFx/FastAPI/Microsoft Fabric Warehouse) |
+| **three sixty Power BI Reporting** | 30+ contributions | Power BI dashboards, data visualization, and executive reporting infrastructure |
+| **P.L. Marketing** | 25+ contributions | Ad hoc Python automation, product image generation tools, vendor portal, project tracking |
 | **Kroger Technology** | ~91 contributions | Terraform IaC CI/CD pipelines (.yml) with staged validation (syntax check → infrastructure plan → apply), nonprod SQL Server deployment for pre-prod testing, RBAC upgrades across nonprod and prod SQL Servers, Key Vault integration, IP and networking configuration, geo-redundant backups (East US 2) |
 
 ---
@@ -41,7 +41,6 @@ BS in Informatics from Indiana University, with minors in Psychology and Neurosc
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
