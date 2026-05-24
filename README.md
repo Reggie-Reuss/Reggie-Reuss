@@ -28,7 +28,7 @@ BS in Informatics from Indiana University, with minors in Psychology and Neurosc
 |---|---|---|
 | **three sixty Merchandising Solutions** | 70+ contributions | Retail analytics ETL pipeline, Azure SQL database design, SQL views, AI-powered brand matching, automated scorecard generation, multi-tenant analytics portal (SPFx/FastAPI/Microsoft Fabric Warehouse) |
 | **three sixty Power BI Reporting** | 30+ contributions | Power BI dashboards, data visualization, and executive reporting infrastructure |
-| **P.L. Marketing** | 25+ contributions | Ad hoc Python automation, product image generation tools, vendor portal, project tracking |
+| **P.L. Marketing** | 25+ contributions | Ad hoc Python automation, product image generation tools |
 | **Kroger Technology** | ~91 contributions | Terraform IaC CI/CD pipelines (.yml) with staged validation (syntax check → infrastructure plan → apply), nonprod SQL Server deployment for pre-prod testing, RBAC upgrades across nonprod and prod SQL Servers, Key Vault integration, IP and networking configuration, geo-redundant backups (East US 2) |
 
 ---
