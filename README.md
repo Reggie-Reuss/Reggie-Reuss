@@ -33,7 +33,7 @@ I'm **one of two developers** on it, and I **lead the QA team of 3**.
 | Workstream | Contributions | Scope |
 |---|---|---|
 | Retail analytics warehouse & ETL | 128 commits · 62 PRs | Weekly Kroger ingestion into Azure SQL, the analytical view layer, scorecards, AI insight reports |
-| Client analytics portal | 65 commits · 70 PRs | SPFx + FastAPI + Fabric Warehouse; row-level security, report builder, AI agent; QA lead |
+| Client analytics portal | 65 commits · 70 PRs | SPFx + FastAPI + Fabric Warehouse; row-level security, report builder, AI agent; QA lead and developer |
 | Power BI reporting | 90 commits · 25 PRs | Reports, semantic models, executive reporting infrastructure |
 | Power BI tooling & custom visuals | 46 commits · 18 PRs | Claude Code skill suite for programmatic authoring; four TypeScript/D3 visuals |
 | Pipeline Console | 21 commits · 13 PRs | Python desktop control room wrapping the weekly ETL |
