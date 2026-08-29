@@ -44,9 +44,11 @@ I'm **one of two developers** on it, and I **lead the QA team of 3**.
 
 ## Personal & Open Source
 
-**[Ralph Wiggum Manager](https://github.com/Reggie-Reuss/ralph-wiggum-manager)** (archived) — full-stack dashboard for managing autonomous Claude Code loops. 127-endpoint Python API, 17-table SQLite backend, 25-command CLI bridge, 9-page vanilla JS frontend. In production: 908 tasks completed, 98.8% iteration success across 54+ hours unattended.
+**[house-recon](https://github.com/Reggie-Reuss/house-recon)** — automated residential real-estate due diligence: one address in, a dated-history timeline, red-flag analysis, offer guidance, and a full photo/county-record dossier out. Ships three ways: a single-file Python CLI, a fully client-side [web analyzer](https://reggie-reuss.github.io/house-recon/) (nothing you paste leaves your browser), and a companion extension published on the Chrome and Edge stores that fetches listing pages automatically. A registry-driven Cloudflare Worker pulls county auditor records across 31 counties in Ohio and Indiana, and the offer heuristics are validated against 150 zips spanning all 50 states.
 
 **RuneLite** — forked the Flipping Utilities plugin to add SQLite crash-proof storage and GE history import, with upstream PRs to [Flipping-Utilities/rl-plugin](https://github.com/Flipping-Utilities/rl-plugin). [Forensic recovery](https://github.com/Reggie-Reuss/runescape-fu-data-recovery) of ~1,400 lost trade entries from a corrupted NVMe SSD.
+
+**[Ralph Wiggum Manager](https://github.com/Reggie-Reuss/ralph-wiggum-manager)** (archived) — full-stack dashboard for managing autonomous Claude Code loops. 127-endpoint Python API, 17-table SQLite backend, 25-command CLI bridge, 9-page vanilla JS frontend. In production: 908 tasks completed, 98.8% iteration success across 54+ hours unattended.
 
 ---
 
@@ -60,6 +62,7 @@ I'm **one of two developers** on it, and I **lead the QA team of 3**.
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
