@@ -12,7 +12,7 @@ BS in Informatics from Indiana University, with minors in Psychology and Neurosc
 
 I'm **one of two developers** on it, and I **lead the QA team of 3**.
 
-**Building it** — backend API and query layer, commodity-scoped row-level security enforced at SQL-build time, an injection-safe drag-compose report builder, a validated calculated-field DSL, scorecard generation with `.pptx` export, and an RLS-bound AI Q&A agent whose tools receive the caller's identity rather than a model-supplied scope. Launched to clients in October 2026, with 190 merged PRs across 45 tagged releases.
+**Building it** — backend API and query layer, commodity-scoped row-level security enforced at SQL-build time, an injection-safe drag-compose report builder, a validated calculated-field DSL, and an RLS-bound AI Q&A agent whose tools receive the caller's identity rather than a model-supplied scope. Launched to clients in October 2026, with 190 merged PRs across 45 tagged releases.
 
 **Testing it** — five release-gated rounds through launch, including an external pilot with four client brands. The first three alone executed 372 checklist lines and filed and triaged 69 defects, across owned lanes for functionality and SQL verification, security and AI red-teaming, and platform/access. Each round's results also document what was left *unverified* — vacuous passes, blocked test accounts, regressions that fell through — and every one becomes a numbered line in the next round.
 
