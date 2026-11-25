@@ -12,9 +12,9 @@ BS in Informatics from Indiana University, with minors in Psychology and Neurosc
 
 I'm **one of two developers** on it, and I **lead the QA team of 3**.
 
-**Building it** — backend API and query layer, commodity-scoped row-level security enforced at SQL-build time, an injection-safe drag-compose report builder, a validated calculated-field DSL, scorecard generation with `.pptx` export, and an RLS-bound AI Q&A agent whose tools receive the caller's identity rather than a model-supplied scope. 115 merged PRs across 22 tagged releases.
+**Building it** — backend API and query layer, commodity-scoped row-level security enforced at SQL-build time, an injection-safe drag-compose report builder, a validated calculated-field DSL, scorecard generation with `.pptx` export, and an RLS-bound AI Q&A agent whose tools receive the caller's identity rather than a model-supplied scope. Launched to clients in October 2026, with 190 merged PRs across 45 tagged releases.
 
-**Testing it** — three release-gated rounds so far: 372 checklist lines executed, 69 defects filed and triaged, across owned lanes for functionality and SQL verification, security and AI red-teaming, and platform/access. Each round's results also document what was left *unverified* — vacuous passes, blocked test accounts, regressions that fell through — and every one becomes a numbered line in the next round.
+**Testing it** — five release-gated rounds through launch, including an external pilot with four client brands. The first three alone executed 372 checklist lines and filed and triaged 69 defects, across owned lanes for functionality and SQL verification, security and AI red-teaming, and platform/access. Each round's results also document what was left *unverified* — vacuous passes, blocked test accounts, regressions that fell through — and every one becomes a numbered line in the next round.
 
 ---
 
@@ -26,25 +26,28 @@ I'm **one of two developers** on it, and I **lead the QA team of 3**.
 
 **AI & Automation** — Claude Vision brand matching, MCP-backed executive summary generation, product image and PDF automation. Plus a Power BI skill suite for Claude Code that builds reports from TMDL/PBIR source and self-verifies them against a live render before calling the work done.
 
+**Platform & Administration** — GitHub and Claude organization admin and owner of three sixty's Azure environment: deployments, code reviews, access, and security. I also teach GitHub to the analyst team.
+
 ---
 
 ## Professional Contributions
 
 | Workstream | Org | Contributions | Scope |
 |---|---|---|---|
-| Retail analytics warehouse & ETL | three sixty Merchandising Solutions | 153 commits · 85 PRs | Weekly Kroger ingestion into Azure SQL, the analytical view layer, scorecards, AI insight reports |
-| Client analytics portal | three sixty Merchandising Solutions | 115 commits · 118 PRs | SPFx + FastAPI + Fabric Warehouse; row-level security, report builder, AI agent; QA lead and developer |
-| Power BI reporting | three sixty Merchandising Solutions | 92 commits · 26 PRs | Reports, semantic models, executive reporting infrastructure |
+| Retail analytics warehouse & ETL | three sixty Merchandising Solutions | 157 commits · 91 PRs | Weekly Kroger ingestion into Azure SQL, the analytical view layer, scorecards, AI insight reports |
+| Client analytics portal | three sixty Merchandising Solutions | 190 commits · 203 PRs | SPFx + FastAPI + Fabric Warehouse; row-level security, report builder, AI agent; QA lead and developer |
+| Power BI reporting | three sixty Merchandising Solutions | 119 commits · 38 PRs | Reports, semantic models, executive reporting infrastructure |
 | Power BI tooling & custom visuals | P.L. Marketing | 49 commits · 19 PRs | Claude Code skill suite for programmatic authoring; four TypeScript/D3 visuals |
-| Pipeline Console | three sixty Merchandising Solutions | 36 commits · 26 PRs | Python desktop control room wrapping the weekly ETL |
+| Pipeline Console | three sixty Merchandising Solutions | 60 commits · 49 PRs | Python desktop control room wrapping the weekly ETL |
 | Business intelligence (ad hoc) | P.L. Marketing | 30 commits · 12 PRs | Python automation, product image generation, internal tooling |
+| Platform administration & enablement | three sixty Merchandising Solutions | 35 commits · 10 PRs | GitHub and Claude org admin, three sixty Azure owner; moved the Fabric mirror to service-principal ownership with automated health checks; org engineering standards; GitHub for Beginners training |
 | Cloud infrastructure & IaC | Kroger | ~91 contributions | Terraform IaC CI/CD with staged validation, nonprod SQL Server deployment, RBAC across nonprod and prod, Key Vault, networking, geo-redundant backups |
 
 ---
 
 ## Personal & Open Source
 
-**[house-recon](https://github.com/Reggie-Reuss/house-recon)** — automated residential real-estate due diligence: one address in, a dated-history timeline, red-flag analysis, offer guidance, and a full photo/county-record dossier out. Ships three ways: a single-file Python CLI, a fully client-side [web analyzer](https://reggie-reuss.github.io/house-recon/) (nothing you paste leaves your browser), and a companion extension published on the Chrome and Edge stores that fetches listing pages automatically. A registry-driven Cloudflare Worker pulls county auditor records across 31 counties in Ohio and Indiana, and the offer heuristics are validated against 150 zips spanning all 50 states.
+**[house-recon](https://github.com/Reggie-Reuss/house-recon)** — automated residential real-estate due diligence: one address in, a dated-history timeline, red-flag analysis, offer guidance, and a full photo/county-record dossier out. Ships three ways: a single-file Python CLI, a fully client-side [web analyzer](https://reggie-reuss.github.io/house-recon/) (nothing you paste leaves your browser), and a companion extension published on the Chrome and Edge stores that fetches listing pages automatically. A registry-driven Cloudflare Worker pulls county auditor records across 33 counties in Ohio and Indiana, and the offer heuristics are validated against 150 zips spanning all 50 states.
 
 **RuneLite** — forked the Flipping Utilities plugin to add SQLite crash-proof storage and GE history import, with upstream PRs to [Flipping-Utilities/rl-plugin](https://github.com/Flipping-Utilities/rl-plugin). [Forensic recovery](https://github.com/Reggie-Reuss/runescape-fu-data-recovery) of ~1,400 lost trade entries from a corrupted NVMe SSD.
 
